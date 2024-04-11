@@ -16,7 +16,6 @@ import { checkPermissions, PermissionResult } from "../utils/checkPermissions";
 import { config } from "../utils/config";
 import { i18n } from "../utils/i18n";
 import { MissingPermissionsException } from "../utils/MissingPermissionsException";
-import { MusicQueue } from "./MusicQueue";
 
 
 
@@ -26,7 +25,6 @@ export class Bot {
   public slashCommands = new Array<ApplicationCommandDataResolvable>();
   public slashCommandsMap = new Collection<string, Command>();
   public cooldowns = new Collection<string, Collection<Snowflake, number>>();
-  public queues = new Collection<Snowflake, MusicQueue>();
 
   public constructor(public readonly client: Client) {
     this.client.login(config.TOKEN);
@@ -35,11 +33,6 @@ export class Bot {
     this.client.on("ready", () => {
       this.client.user!.setActivity(config.ACTIVITY);
 
-      let user_id = '1095666390544953415';
-      client.users.fetch(user_id).then(function(res) {
-        let avatar_url = res.avatarURL();
-        client.user!.setAvatar(avatar_url);
-      });
 
       console.log(`${this.client.user!.username} ready!`);
 
