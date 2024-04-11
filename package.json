@@ -28,6 +28,8 @@
     "ffmpeg-static": "^4.4.1",
     "i18n": "^0.15.1",
     "puppeteer": "^22.6.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "string-progressbar": "^1.0.4"
   },
   "devDependencies": {

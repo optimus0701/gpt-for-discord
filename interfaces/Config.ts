@@ -3,4 +3,5 @@ export interface Config {
   PRUNING: boolean;
   ACTIVITY: string;
   LOCALE: string;
+  URL: string;
 }

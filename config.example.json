@@ -2,5 +2,6 @@
   "TOKEN": ".",
   "PRUNING": false,
   "LOCALE": "en",
-  "ACTIVITY": "GPT"
+  "ACTIVITY": "GPT",
+  "URL": ""
 }

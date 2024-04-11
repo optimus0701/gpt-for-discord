@@ -10,7 +10,8 @@ try {
     TOKEN: process.env.TOKEN || "",
     PRUNING: process.env.PRUNING === "true" ? true : false,
     ACTIVITY: "",
-    LOCALE: process.env.LOCALE || "en"
+    LOCALE: process.env.LOCALE || "en",
+    URL: ""
   };
 }
 
