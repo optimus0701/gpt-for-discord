@@ -35,6 +35,8 @@
 		"cooldownMessage": "please wait {time} more second(s) before reusing the `{name}` command.",
 		"errorCommand": "There was an error executing that command."
 	},
+	"prompt": "Promt: ",
+	"gptReply": "Reply: ",
 	"Invite me to your server!": "Invite me to your server!",
 	"Invite": "Invite",
 	"optionDescription": "optionDescription"
