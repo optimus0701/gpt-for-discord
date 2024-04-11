@@ -22,7 +22,7 @@ export default {
                 method: 'post'
             }).then(async response => {
                 const text = await response.text();
-                interaction.editReply(i18n.__('prompt') + prompt + '\n' + i18n.__('gptReply') + text);
+                interaction.editReply(i18n.__('prompt') + prompt + '\n\n' + i18n.__('gptReply') + text);
             });
         } else {
             interaction.reply('Something was wrong...');
