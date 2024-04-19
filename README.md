@@ -5,7 +5,7 @@ The back end of this project uses components from [freeGPT(Ruu3f)](https://githu
 
 # Getting Started
 ## Make config
-Change config.example.json to config.json
+Change config.example.json to config.json\
 Insert bot token and url of backend
 
 ## Install module
