@@ -4,7 +4,7 @@ The project's format is inspired by [Erit Islami's evobot](https://github.com/er
 The back end of this project uses components from [freeGPT(Ruu3f)](https://github.com/Ruu3f/freeGPT)
 
 # Getting Started
-## Make config
+## Make config file
 Change config.example.json to config.json\
 Insert bot token and url of backend
 
